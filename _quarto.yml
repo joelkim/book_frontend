@@ -1,0 +1,38 @@
+project:
+  type: website
+  render:
+    - "*.ipynb"
+
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    css: styles.css
+    page-layout: full
+    code-block-bg: true
+    code-overflow: wrap
+    code-line-numbers: false
+    monofont: D2Coding
+    language:
+      crossref-tbl-title: "표"
+
+website:
+  title: "Frontend Book"
+  site-url: https://frontendbook.madebykim.kr/
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - "index.ipynb"
+      - section: "Node.js"
+        contents:
+        - "npm_basic.ipynb"
+      - section: "Javascript"
+        contents:
+        - "js_type.ipynb"
+      - section: "Typescript"
+        contents:
+        - "tsconfig.ipynb"
+      - section: "HTTP Server"
+        contents:
+        - "http.ipynb"
