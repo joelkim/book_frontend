@@ -24,23 +24,30 @@ website:
     search: true
     contents:
       - "index.ipynb"
-      - section: "Node.js"
+      - section: "Core"
         contents:
-        - "npm_basic.ipynb"
-        - "package.json.ipynb"
-        - "node.ipynb"
-        - "module.ipynb"
-      - section: "자바스크립트"
+          - section: "Node.js"
+            contents:
+              - "npm_basic.ipynb"
+              - "package.json.ipynb"
+              - "node.ipynb"
+              - "module.ipynb"
+          - section: "자바스크립트"
+            contents:
+              - "js_type.ipynb"
+          - section: "타입스크립트"
+            contents:
+              - "tsconfig.ipynb"
+              - "tsc.ipynb"
+          - section: "타입스크립트 패키지"
+            contents:
+              - "ts_packages.ipynb"
+              - "tsc_watch.ipynb"
+          - section: "HTTP Server"
+            contents:
+              - "http.ipynb"
+      - section: "Applications"
         contents:
-        - "js_type.ipynb"
-      - section: "타입스크립트"
-        contents:
-        - "tsconfig.ipynb"
-        - "tsc.ipynb"
-      - section: "타입스크립트 패키지"
-        contents:
-        - "ts_packages.ipynb"
-        - "tsc_watch.ipynb"
-      - section: "HTTP Server"
-        contents:
-        - "http.ipynb"
+          - section: "tldraw"
+            contents:
+              - "tldraw.ipynb"
