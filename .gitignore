@@ -208,3 +208,5 @@ __marimo__/
 
 /.quarto/
 /_site/
+
+**/*.quarto_ipynb
