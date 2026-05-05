@@ -35,6 +35,8 @@ website:
           - section: "자바스크립트"
             contents:
               - "js_type.ipynb"
+              - "js_statement.ipynb"
+              - "js_event.ipynb"
           - section: "타입스크립트"
             contents:
               - "tsconfig.ipynb"

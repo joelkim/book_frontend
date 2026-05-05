@@ -210,3 +210,4 @@ __marimo__/
 /_site/
 
 **/*.quarto_ipynb
+.Trash*/
