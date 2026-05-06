@@ -26,34 +26,38 @@ website:
       - "index.ipynb"
       - section: "Core"
         contents:
+          - section: "HTML"
+            contents:
+              - "core/html/html.ipynb"
+          - section: "CSS"
+            contents:
+              - "core/css/css.ipynb"
           - section: "Node.js"
             contents:
-              - "npm_basic.ipynb"
-              - "package.json.ipynb"
-              - "node.ipynb"
-              - "module.ipynb"
+              - "core/node/npm_basic.ipynb"
+              - "core/node/package.json.ipynb"
+              - "core/node/node.ipynb"
+              - "core/node/module.ipynb"
           - section: "자바스크립트"
             contents:
-              - "js_type.ipynb"
-              - "js_statement.ipynb"
-              - "js_event.ipynb"
+              - "core/js/js_type.ipynb"
+              - "core/js/js_statement.ipynb"
+              - "core/js/js_event.ipynb"
           - section: "타입스크립트"
             contents:
-              - "tsconfig.ipynb"
-              - "tsc.ipynb"
-          - section: "타입스크립트 패키지"
+              - "core/ts/tsconfig.ipynb"
+              - "core/ts/tsc.ipynb"
+              - "core/ts/ts_packages.ipynb"
+              - "core/ts/tsc_watch.ipynb"
+          - section: "HTTP"
             contents:
-              - "ts_packages.ipynb"
-              - "tsc_watch.ipynb"
-          - section: "HTTP Server"
-            contents:
-              - "http.ipynb"
+              - "core/http/http.ipynb"
       - section: "Applications"
         contents:
           - section: "gsap"
             contents:
               - "applications/gsap/gsap.ipynb"
               - "applications/gsap/gsap_code.ipynb"
-          - section: "tldraw"
+          - section: "Konva"
             contents:
-              - "tldraw.ipynb"
+              - "applications/konva/konva.ipynb"
