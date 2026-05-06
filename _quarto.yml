@@ -50,6 +50,10 @@ website:
               - "http.ipynb"
       - section: "Applications"
         contents:
+          - section: "gsap"
+            contents:
+              - "applications/gsap/gsap.ipynb"
+              - "applications/gsap/gsap_code.ipynb"
           - section: "tldraw"
             contents:
               - "tldraw.ipynb"
