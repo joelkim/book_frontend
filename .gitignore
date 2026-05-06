@@ -210,4 +210,6 @@ __marimo__/
 /_site/
 
 **/*.quarto_ipynb
+
+node_modules/
 .Trash*/
