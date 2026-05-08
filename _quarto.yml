@@ -33,6 +33,7 @@ website:
             contents:
               - "core/css/css.ipynb"
               - "core/css/css_priority.ipynb"
+              - "core/css/css_box.ipynb"
           - section: "Node.js"
             contents:
               - "core/node/npm_basic.ipynb"
